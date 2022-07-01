@@ -34,5 +34,5 @@ to have the grid and player displayed, followed by the actuation of any key to h
 ![](After.png)
 
 ## Resources
-[Basic drawings](https://docs.opencv.org/4.x/d7/da8/tutorial_table_of_content_imgproc.html) with OpenCV.
-[Pixel coloring](https://docs.opencv.org/3.4/d5/d98/tutorial_mat_operations.html) via `Basic operations with images`.
+-[Basic drawings](https://docs.opencv.org/4.x/d7/da8/tutorial_table_of_content_imgproc.html) with OpenCV.
+-[Pixel coloring](https://docs.opencv.org/3.4/d5/d98/tutorial_mat_operations.html) under the `Basic operations with images` section.
