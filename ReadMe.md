@@ -28,10 +28,10 @@ to have the grid and player displayed, followed by the actuation of any key to h
 ## Results
 
 ### Before
-![](Before.png)
+![](/ResultImages/Before.png)
 
 ### After
-![](After.png)
+![](/ResultImages/After.png)
 
 ## Resources
 - [Basic drawings](https://docs.opencv.org/4.x/d7/da8/tutorial_table_of_content_imgproc.html) with OpenCV.
