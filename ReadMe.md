@@ -24,3 +24,11 @@ Then, a `mainProg` executable file will be generated on the current working dire
 ./mainProg
 ```
 to have the grid and player displayed, followed by the actuation of any key to have the shortest path from the player to the peak of the grid generated. Hit any key again to terminate the simulation.
+
+## Results
+
+### Before
+![](Before.png)
+
+### After
+1[](After.png)
