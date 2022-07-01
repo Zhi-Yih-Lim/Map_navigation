@@ -9,7 +9,18 @@ This is a self-paced project aimed at familiarizing  myself with programming in 
 This simulation uses the OpenCV library (4.5.5_2) to display the grid with topographical features and a player/vehicle/person within it. The `cmath` library is also used to calculate square-roots and exponents. The remaining dependencies ( i.e. stack, vector, queue, ... ) used in the simulation are part of the C++ standard library. The version of C++ used is C++11 and the compiler version is GCC 4.2.1.
 
 ## Running the code
-With the dependencies in place, ensure that all `.h` and `.cpp` are in the same directory. In the terminal, ( Was using the terminal on a late 2013 MacBookPro ) enter the command 
+With the dependencies in place, ensure that all `.h` and `.cpp` are in the same directory. In the terminal, ( Was using the terminal on a late 2013 MacBookPro ) enter the command : 
 ```
-test
+g++ $(pkg-config --cflags --libs */opencv4.pc) -std=c++11 main.cpp Cell.cpp Player.cpp Maze.cpp Vertex.cpp Edge.cpp -o mainProg
+
 ```
+where `*` is the path on the local machine to the `opencv4.pc` file. The path was :
+```
+/usr/local/Cellar/opencv/4.5.5_2/lib/pkgconfig
+```
+on my laptop.  
+Then, a `mainProg` executable file will be generated on the current working directory. In the terminal again, enter the following command :
+```
+./mainProg
+```
+to have the grid and player displayed, followed by the actuation of any key to have the shortest path from the player to the peak of the grid generated. Hit any key again to terminate the simulation.
