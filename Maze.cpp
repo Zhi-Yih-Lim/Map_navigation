@@ -78,7 +78,7 @@ Maze::Maze(int Cell_s, int Grid_s){
 	}
 }
 
-Maze:~Maze(){
+Maze::~Maze(){
 	// Delete the edges and the vertices
 	delete[] EdgeArr;
 	delete[] VertexArr;
