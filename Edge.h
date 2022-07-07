@@ -17,6 +17,7 @@ class Edge{
 	public:
 	// Default constructor
 	Edge();
+	~Edge();
 	// Overloaded constructor
 	Edge(Vertex* P, Vertex* C, int weight);
 

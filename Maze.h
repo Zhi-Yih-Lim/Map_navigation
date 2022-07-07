@@ -30,6 +30,7 @@ class Maze{
 	public:
 	// Constructors for the Maze class
 	Maze();
+	~Maze();
 	Maze(int Cell_s, int Grid_s);
 
 	// Member functions 

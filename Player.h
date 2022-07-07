@@ -45,6 +45,9 @@ class Player{
 	void SetDest(std::tuple<int, int> Dest);
 	void SetPath(std::vector<std::tuple<int,int>> &P2Dest);
 
+	// Destructor for the class
+	~Player();
+
 
 
 };

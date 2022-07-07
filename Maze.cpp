@@ -78,6 +78,23 @@ Maze::Maze(int Cell_s, int Grid_s){
 	}
 }
 
+Maze:~Maze(){
+	// Delete the edges and the vertices
+	delete[] EdgeArr;
+	delete[] VertexArr;
+
+	// Delete the each "Cell" instance manually
+	for (int col=0; col<GSize; col++){
+		for (int row=0; row<GSize; row++){
+			delete Grid[col][row];
+		}
+		// When all row elements have been deleted, delete the entire column
+		delete[] Grid[col];
+	}
+
+	delete[] Grid;
+}
+
 Mat Maze::PlotGrid(){
 	// Calculate the total number of cells on the grid
 	// There will be altogether [thickness * (GSize + 1)] 

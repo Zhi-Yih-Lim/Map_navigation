@@ -26,6 +26,8 @@ class Vertex{
 	public:
 	//Constructors
 	Vertex();
+	// Destructor
+	~Vertex();
 
 	// Member functions that set the state of the 
 	// vertex

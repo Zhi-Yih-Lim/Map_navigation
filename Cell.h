@@ -29,6 +29,7 @@ class Cell{
 	public:
 	// Constructor for the current class
 	Cell();
+	~Cell();
 	Cell(int x,int y,int elev);
 	
 	// Member functions that enquires the state of the cell
